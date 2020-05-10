@@ -12,7 +12,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -22,10 +21,10 @@
 <link rel="stylesheet" href="css/owl.carousel.css">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-<!-- Main css -->
+
 <link rel="stylesheet" href="css/style.css">
 
-<!-- Google Font -->
+
 <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
 
 </head>
@@ -34,26 +33,27 @@
 
 
 
-<!-- =========================
-     NAVIGATION LINKS     
-============================== -->
-<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+
+<div class="navbar navbar-fixed-top custom-navbar" role="navigation" >
 	<div class="container">
 
 		
 		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="navigationbtn">
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<img src="genesis.png" width="50" height="50">
+
+			<a href="index.html" class="navbar-brand">Genesis Training</a>
+			
 		</div>
-		<a href="index.html" class="navbar-brand">Genesis Training</a>
+		
 
-		<div class="collapse navbar-collapse">
+		<div class="collapse navbar-collapse" id="navigationbar">
 
-			<ul class="nav navbar-nav navbar-right">
+			<ul class="nav navbar-nav navbar-right" style="font-family: 'Times New Roman'">
+
 				<li><a href="#homepage" class="smoothScroll">Home</a></li>
 				<li><a href="#about_us" class="smoothScroll">About Us</a></li>
 				<li><a href="#services1" class="smoothScroll">Services</a></li>
@@ -75,6 +75,7 @@
 		<div class="row">
 
 			<div class="col-md-12 col-sm-12">
+				<div class="wow bounceIn" data-wow-delay="0.9s"><img src="rsz_genesis.png" ></div>
 				<h3 class="wow bounceIn" data-wow-delay="0.9s">Perfection comes by Practice</h3>
 				<h1 class="wow fadeInUp" data-wow-delay="1.6s">Let's learn together at your pace!</h1>
 				<a href="#about_us" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">LEARN MORE</a>
@@ -197,8 +198,7 @@
 				</div>
 			</div>
 
-			<!-- Testimonial Owl Carousel section
-			================================================== -->
+		
 			<div id="owl-speakers" class="owl-carousel">
 
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
@@ -236,7 +236,7 @@
 						<img src="images/paul.jpg" class="img-responsive" alt="speakers">
 							<div class="speakers-thumb">
 								<h3>Paul Fernandes</h3>
-								<h6>VP(Business Development)</h6>
+								<h6>VP(Business Development Manager)</h6>
 							</div>
 					</div>
 				</div>
@@ -333,13 +333,11 @@
 
 
 
-<!-- Back top -->
+
 <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
 
-<!-- =========================
-     SCRIPTS   
-============================== -->
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.parallax.js"></script>
